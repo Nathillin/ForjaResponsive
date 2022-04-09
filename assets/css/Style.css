@@ -824,13 +824,13 @@ form .formulario {
         width: 20%;
         top: -10%;
         margin-left: -40%;
-      }
-      .franja{
-          width: 73.5%;
-      }
-      .franja img{
-         width: 136%;
-      }*/
+    }
+    .franja{
+        width: 73.5%;
+    }
+    .franja img{
+        width: 136%;
+    }
 }
 
 /*index*/
@@ -852,18 +852,3 @@ px
 ;
     
     /*alerta*/
-
-/* ::::::::::::::::DESKTOP - PLUS :::::::::::::::::*/
-@media screen and (max-width:1024px){
-    /*index*/
-
-    /*login*/
-
-    /*pacientes*/
-
-    /*Dashboard*/
-
-    /*resgistro*/
-    
-    /*alerta*/
-}
