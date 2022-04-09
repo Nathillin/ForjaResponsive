@@ -10,6 +10,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    background-color: red;
 }
 
 :root{
@@ -143,8 +144,8 @@ header{
     background-image: url(../img/CorGroup.png);
     width: 100%;
     height: 100%;
-    margin-top: -10px;
-    margin-bottom: -16px;
+    
+   
 }
 
 .alertas{
@@ -435,8 +436,8 @@ label{
     left: 50%;
     border-radius: 5px;
     align-items: center;
-    animation: bounceInLeft;
-    animation-duration: 20s;
+    /* animation: bounceInLeft;*/
+    animation-duration: 10s;
 }
 
 .contenido{
@@ -606,6 +607,11 @@ label{
     align-items: center;
 }
 
+.logo{
+    width: 370px;
+    justify-content: center;
+}
+
 .tabla-intro{
     background-color: var(--azul-color);
     padding: 2px;
@@ -671,12 +677,38 @@ form .formulario {
 /*:::::::::::::::::::::: DISEÑO RESPONSIVE ::::::::::::::::::::::::::::*/
 
 /* MOBILE */
-@media screen and (min-width:320px){
+@media screen and (max-width:320px){
 
+    
+
+    /*login*/
+    header{
+        background-color: aqua;
+    }
+
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        background-color: greenyellow;
+    }
+
+    .login-container {
+        width: 50%;
+    }
+
+    .login-logoo{
+    align-items: center;
+    width: 130px;
+    } */
+
+    .volver-home{
+        display: flex;
+        align-items: center;
+    }
 }
 
 /* TABLET */
-@media screen and (min-width:768px){
+@media screen and (max-width:768px){
     /*index*/
 
     /*login*/
@@ -691,7 +723,7 @@ form .formulario {
 }
 
 /* DESKTOP */
-@media screen and (min-width:1200px  ){
+@media screen and (max-width:1200px  ){
     .container-logo-buttons{
         flex-direction: row;
         margin: 5px;
@@ -797,12 +829,32 @@ form .formulario {
           width: 73.5%;
       }
       .franja img{
-         width: 100%;
+         width: 136%;
       }*/
 }
 
-/* DESKTOP - PLUS */
-@media screen and (min-width:1024px){
+/*index*/
+
+    /*login*/
+
+    .login-container {
+        width: 50%;
+    }
+
+    /*pacientes*/
+
+    /*Dashboard*/
+
+    /*resgistro*/
+
+    width: 100px
+px
+;
+    
+    /*alerta*/
+
+/* ::::::::::::::::DESKTOP - PLUS :::::::::::::::::*/
+@media screen and (max-width:1024px){
     /*index*/
 
     /*login*/
