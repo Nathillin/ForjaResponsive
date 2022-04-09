@@ -10,7 +10,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    background-color: red;
 }
 
 :root{
@@ -47,8 +46,9 @@ header{
 .container-logo-buttons{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    padding: 40px;
 }
 
 .container-buttons{
@@ -56,14 +56,6 @@ header{
     align-items: baseline;
     margin-bottom: 5px;
 }
-
-/*a*/
-
-
-
-
-
-
 
 /*----------------*/
 
@@ -101,12 +93,11 @@ header{
 .baner{
     margin-top: 2px;
     background-image: url(../img/2.\ medico\ \(10\).png);
+    height: 100%;
 }
 
 .tbaner{
     flex-basis: 70px;
-    
-   
     padding: 2rem;
 }
 
@@ -133,6 +124,7 @@ header{
 }
 .franja img{
     width: 100%;
+    display: block;
     
 }
 
@@ -142,10 +134,9 @@ header{
     display: flex;
     flex-direction: column;
     background-image: url(../img/CorGroup.png);
+    padding: 50px;
     width: 100%;
-    height: 100%;
-    
-   
+    height: 300%;
 }
 
 .alertas{
@@ -186,9 +177,7 @@ header{
 /* que hacer */
 .hacer{
     padding: 5px;
-    /*padding-right: 60px;*/
     width: 50%;
-    /*align-items: flex-start;*/
 }
 
 .quest{
@@ -199,15 +188,13 @@ header{
 .qhacer{
     text-align: center;
     position: absolute;
-    /*left: 200px;*/
     right: 30px;
+    animation-duration: 20s;
 }
 
 .qhacer p{
-    /*line-height: 108px;*/
+    text-align: center;
 }
-
-
 
 .qhacer u{
     color: #0e5883;
@@ -268,7 +255,6 @@ header{
     padding: 5px;
     animation: bounce;
     animation-duration: infinite;
-    /* margin: 5px; */
 }
 
 .volver-home button{
@@ -353,13 +339,6 @@ label{
 }
 
 .ingresar{
-    /* display: block;
-    margin-left:130px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 3px; 
-    margin: 10px; */
-
     padding: 6px;
     padding-left: 15px;
     padding-right: 15px;
@@ -413,16 +392,6 @@ label{
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-
-/*.menu1 a:hover{
-    background-color: var(--naranja-color);
-    color: var(--dark-color);
-    border: 3px solid var(--naranja-color);
-    padding-left: 40px;
-    margin: 20px;
-    transition: all 2s;
-    width: 200px;
-}*/
 
 .menu1 i{
     margin: 10px;
@@ -608,8 +577,11 @@ label{
 }
 
 .logo{
-    width: 370px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
 }
 
 .tabla-intro{
@@ -634,13 +606,11 @@ label{
 }
 
 .frm-titlles{
-    /*font-size: 25px;*/
     background-color: var(--magenta-color);
     text-align: center;
     border-radius: 2px solid var(--azul-color);
     color: white;
     border-radius: 5px;
-    /* font-weight: 500; */
     position: relative;
 }
 
@@ -652,16 +622,6 @@ label{
     height: 3px;
     width: 30px;
 }
-
-/* .frm-titlles form .frm-conten{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-}
-
-form .formulario{
-    width: calc(100% / 2 - 10px);
-} */
 
 .contenidos form .pacformulario{
     display: flex;
@@ -683,13 +643,13 @@ form .formulario {
 
     /*login*/
     header{
-        background-color: aqua;
+        display: flex;
     }
 
     body{
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
-        background-color: greenyellow;
+        
     }
 
     .login-container {
@@ -707,23 +667,12 @@ form .formulario {
     }
 }
 
-/* TABLET */
-@media screen and (max-width:768px){
-    /*index*/
-
-    /*login*/
-
-    /*pacientes*/
-
-    /*Dashboard*/
-
-    /*resgistro*/
-    
-    /*alerta*/ 
-}
-
 /* DESKTOP */
 @media screen and (max-width:1200px  ){
+    .header{
+        display: flex;
+    }
+
     .container-logo-buttons{
         flex-direction: row;
         margin: 5px;
@@ -847,8 +796,5 @@ form .formulario {
 
     /*resgistro*/
 
-    width: 100px
-px
-;
     
     /*alerta*/
