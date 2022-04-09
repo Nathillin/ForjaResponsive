@@ -265,8 +265,6 @@ header{
     align-items: flex-end;
     margin-left: 130px;
     padding: 5px;
-    animation: bounce;
-    animation-duration: infinite;
     /* margin: 5px; */
 }
 
@@ -363,8 +361,6 @@ label{
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 5px;
-    animation: bounceIn;
-    animation-duration: 10s;
 }
 
 .ingresar button{
@@ -435,8 +431,6 @@ label{
     left: 50%;
     border-radius: 5px;
     align-items: center;
-    animation: bounceInLeft;
-    animation-duration: 20s;
 }
 
 .contenido{
