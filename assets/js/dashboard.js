@@ -52,36 +52,10 @@ function busqueda(){
 
     else if(b == "1007203506"){
         alert("Caso4");
+        console.log("Casa 4");
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
