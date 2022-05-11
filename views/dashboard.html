@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/Style.css">
     <link rel="icon" type="image/png" href="../assets/img/13. guerreros.png">
+    <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Dashboard</title>
 </head>
@@ -31,12 +33,13 @@
         </div>
         <div class="tex-contenido">
             <h1 class="animate__animated animate__flipInY">BIENVENIDOS</h1>
-            <form class="frm-bienvenida">
-                <input type="text" name="tex" placeholder="Digite el numero de coumento">
-                <button class="frm-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <form class="frm-bienvenida" id="frm-bienvenida">
+                <input id="texBuscar" type="text" name="tex" placeholder="Digite el numero de coumento">
+                <button onclick="busqueda()" id="buscar" class="frm-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
                 <button class="frm-icon"><i class="fa-solid fa-arrow-rotate-left"></i></button>
             </form>
         </div>
     </article>
+    <script src="../assets/js/dashboard.js"></script>
 </body>
 </html>
