@@ -1,4 +1,4 @@
-let button= document.querySelector("#entrada");
+let boton= document.querySelector("#entrada");
 
 function ingresar(){
     console.log("entre");
@@ -6,7 +6,7 @@ function ingresar(){
     let u= document.getElementById("password").value;
 
     if (c =="Admin" && u == "Kuepa2022"){
-        document.querySelector(".form-login").setAttribute("action","dashboard.html");
+        window.location="dashboard.html";
     }
 
     if(c !="Admin" && u != "Kuepa2022"){
@@ -21,7 +21,16 @@ function ingresar(){
             }
         })
     }
+    else{
+        Swal.fire({
+            title: '',
+            confirmButtonColor: '#c55110',
+            showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+            }
+        })
+    }
 }
-
-
-// window.setTimeout(()=>{window.location.href="login.html"},14000);
