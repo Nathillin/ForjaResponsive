@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --rojo-color: #A40101;
+    --magenta-color: #2CA3AB;
+    --cielo-color: #a8dde0;
+    --gris-color: #C4C4C4;
+    --naranja-color: #c55110;
+    --azul-color: #1D1B45;
+    --darkazul-color: #212429;
+    --azual-color:#0e5883;
+    --Grisv-color: #365057;
+}
+
+#hedPaciente {
+    background-color: var(--darkazul-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttPaciente {
+    margin-top: 1rem;
+    margin-right: 3px;
+    margin-bottom: 0.5rem;
+}
+
+.buttPaciente button {
+    background-color: var(--gris-color);
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--magenta-color); 
+    border-radius: 50px;
+}
+
+.buttPaciente i {
+    color: black
+}
+
+.franja img{
+    width: 100%;
+    height: 50%;
+}
+
+.tregistro {
+    width: 99%;
+    margin: 5px auto 10px auto;
+    background-color: var(--darkazul-color);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+}
+
+.tregistro h1{
+    font-size: medium;
+}
+
+.cajaformulario {
+    width: 300px;
+    background-color: var(--gris-color);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid var(--Grisv-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.cajaformulario input {
+    border: 2px solid var(--magenta-color);
+    border-radius: 3px;
+    outline: none;
+    width: 220px;
+    margin: 10px 25px 10px;
+    padding: 0.5rem;
+}
+
+.cajaformulario select {
+    border: 2px solid var(--magenta-color);
+    border-radius: 3px;
+    color: #4e4c4d;
+    height: 40px;
+    outline: none;
+    margin: 10px 25px 10px;
+    width: 220px;
+    padding: 0.5rem;
+}
+
+.f1 input {
+    margin-right: 1.2rem;
+    margin-bottom: 1rem;
+    color: #4e4c4d;
+}
+
+.subdatos {
+    padding-top: 12px;
+    padding: 5px;
+    margin: 15px 0;
+    background-color: var(--magenta-color);
+    color: white;
+    text-align: center;
+    height: 30px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: var(--Grisv-color);
+    border-width: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fa-titulos{
+    color: black;
+}
+
+.datospaciente3 {
+    display: block;
+}
+
+.datospaciente1 {
+    display: block;
+}
+
+.radio {
+    display: flex;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.botonguardar {
+    width: 120px;
+    background-color: var(--naranja-color);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border: var(--naranja-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.footerindex{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.footer, .footer1 {
+    background-color: black;
+    padding: 0px 10px 20px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+@media screen and (min-width:700px) {
+    .tregistro h1{
+        font-size: medium;
+    }
+
+    .cajaformulario input {
+        width: 300px;
+        margin: 10px;
+    }
+
+    .cajaformulario select {
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 300px;
+    }
+
+    .datospaciente3 {
+        display: flex;
+    }
+
+    .datospaciente1 {
+        display: block;
+    }
+
+    .datospaciente1 {
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width:1024px) { 
+    .tregistro h1{
+        font-size: medium;
+    }
+
+    .cajaformulario {
+        width: 880px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cajaformulario input {
+        width: 400px;
+        margin: 10px;
+    }
+
+    .cajaformulario select {
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 410px;
+    }
+
+    .datospaciente3 {
+        display: flex;
+    }
+
+    .datospaciente1 {
+        display: block;
+    }
+    .datospaciente1 {
+        display: flex;
+    }
+
+    .salud{
+        display: block;
+        margin: 0 auto;
+    }
+
+}
