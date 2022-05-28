@@ -182,29 +182,31 @@
 
             <div class="cuadro1-alergias">
                 <label for="alergias"></label>
-                <input name="alergias" id="alergias" type="text" style="height: 1.5rem" placeholder="Alergias"
+                <input name="alergias" id="alergias" type="text" placeholder="Alergias"
                     required>
             </div>
         </div>
 
         <div>
             <div>
-                <legend for="pruebaCovid">¿El paciente se ha realizado la prueba de covid con anterioridad y esta ha salido positiva?</legend>
+                <p class="texpruebaCovid">¿El paciente se ha realizado la prueba de covid con anterioridad y esta ha salido positiva?</p>
             </div>
-            <div class="radio">
-                <input name="prueba" id="prueba" type="radio" required>SI
-                <input name="prueba" id="prueba" type="radio" required>NO
+            <div class="btn-si-no">
+                <input name="pruebaCovid" id="pruebaCovid" type="radio" required="required">SI
+                <input name="pruebaCovid" id="pruebaCovid" type="radio" required="required" checked>NO
             </div>
         </div>
 
         <div>
-                <div>
-                    <label for="pruebaCovid">¿El paciente ha tenido un contacto estrecho con una persona confirmada o sospechosa COVID-19 en los ultimos 14 dias?</label>
-                </div>
-                <label class="radio">
-                    <input name="prueba" id="prueba" type="radio" required>"SI"
-                    <input name="prueba" id="prueba" type="radio" required>"NO"
-                </label>
+            <div>
+                <p class="texpruebaCovid">¿El paciente ha tenido un contacto estrecho con una persona confirmada o sospechosa COVID-19 en los ultimos 14 dias?</p>
+            </div>
+            <div class="btn-si-no">
+                <input name="pruebaCovid" id="pruebaCovid" type="radio" required="required">SI
+                <input name="pruebaCovid" id="pruebaCovid" type="radio" required="required" checked>NO
+            </div>
+
+
         </div>
 
     </section>
@@ -217,4 +219,4 @@
         </div>
     </footer>
 </body>
-</html>>
+</html>
