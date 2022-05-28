@@ -21,16 +21,4 @@ function ingresar(){
             }
         })
     }
-    else{
-        Swal.fire({
-            title: '',
-            confirmButtonColor: '#c55110',
-            showClass: {
-            popup: 'animate__animated animate__fadeInDown'
-            },
-            hideClass: {
-            popup: 'animate__animated animate__fadeOutUp'
-            }
-        })
-    }
 }

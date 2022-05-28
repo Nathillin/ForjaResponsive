@@ -316,7 +316,7 @@ p{
 }
 
 /*---------------------TABLETA---------------------*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (man-width: 1023px){
     .botonSesion{
         display: flex;
         grid-area: item4;
