@@ -433,6 +433,7 @@ p{
     }
 
     .seccion{
+        height: 100%;
         display: block;
     }
 

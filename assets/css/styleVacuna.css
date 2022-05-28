@@ -69,7 +69,7 @@
     background-color: var(--gris-color);
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 2rem auto;
     padding: 1rem;
     border-radius: 10px;
     border: 1px solid var(--Grisv-color);
@@ -96,12 +96,6 @@
     padding: 0.5rem;
 }
 
-.f1 input {
-    margin-right: 1.2rem;
-    margin-bottom: 1rem;
-    color: #4e4c4d;
-}
-
 .subdatos {
     padding-top: 12px;
     padding: 5px;
@@ -117,51 +111,26 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.fa-titulos{
-    color: black;
+.observacion{
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    margin: 10px 0 10px;
+    border: 2px solid var(--magenta-color);
+    padding: 0.3rem;
 }
 
-.datospaciente3 {
-    display: block;
-}
-
-.texpruebaCovid{
-    padding: 20px;
-}
-
-.btn-si-no{
+.btn-naranja button{
     display: flex;
-    width: 150px;
-    margin: auto;
-}
-
-.datospaciente1 {
-    display: block;
-}
-
-.radio {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.botonguardar {
-    width: 120px;
+    justify-content: center;
     background-color: var(--naranja-color);
-    margin-top: 25px;
-    margin-bottom: 25px;
     border-radius: 5px;
-    padding: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 0.3rem;
+    font-weight: 500;
+    border: none;
     cursor: pointer;
-    border: var(--naranja-color);
-    font-family: 'Poppins', sans-serif;
-}
-
-.footerindex{
-    background-color: var(--black-color);
-    color: var(--white-color);
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
 }
 
 .footer, .footer1 {
@@ -173,73 +142,4 @@
     text-align: center;
     vertical-align: top;
     font-size: 13px;
-}
-
-@media screen and (min-width:700px) {
-    .tregistro h1{
-        font-size: medium;
-    }
-
-    .cajaformulario input {
-        width: 300px;
-        margin: 10px;
-    }
-
-    .cajaformulario select {
-        margin-left: 12px;
-        width: 300px;
-    }
-
-    .datospaciente3 {
-        display: flex;
-    }
-
-    .datospaciente1 {
-        display: block;
-    }
-
-    .datospaciente1 {
-        display: flex;
-    }
-
-}
-
-@media screen and (min-width:1024px) { 
-    .tregistro h1{
-        font-size: medium;
-    }
-
-    .cajaformulario {
-        width: 880px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .cajaformulario input {
-        width: 400px;
-        margin: 10px;
-    }
-
-    .cajaformulario select {
-        margin-top: 10px;
-        margin: 12px;
-        width: 397px;
-    }
-
-    .datospaciente3 {
-        display: flex;
-    }
-
-    .datospaciente1 {
-        display: block;
-    }
-    .datospaciente1 {
-        display: flex;
-    }
-
-    .salud{
-        display: block;
-        margin: 0 auto;
-    }
-
 }

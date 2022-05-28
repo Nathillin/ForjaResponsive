@@ -34,12 +34,10 @@
     </div>
 
     <section class="cajaformulario">
-
         <div class="f1">
             <form>
                 <input type="date" placeholder="Fecha de registro" required>
                 <input type="text" placeholder="N° registro" required>
-            
         </div>
 
         <div class="subdatos">
@@ -47,29 +45,27 @@
         </div>
 
         <div>
-                <div class="datospaciente1">
-                    <input type="text" placeholder="Escribe tu nombre" required>
-                    <input type="text" placeholder="Apellidos" required>
-                </div>
+            <div class="datospaciente1">
+                <input type="text" placeholder="Escribe tu nombre" required>
+                <input type="text" placeholder="Apellidos" required>
+            </div>
 
+            <div class="datospaciente1">
+                <input type="text" placeholder="Numero de documento" required>
+                <select name="documento" id="documento" required>
+                    <option disabled selected>Tipo de documento</option>
+                        <option value="0">CC</option>
+                        <option value="1">CE</option>
+                        <option value="2">NIP</option>
+                        <option value="3">NIT</option>
+                        <option value="4">TI</option>
+                </select>
+            </div>
 
-                <div class="datospaciente1">
-                    <input type="text" placeholder="Numero de documento" required>
-                    <select name="documento" id="documento" required>
-                        <option disabled selected>Tipo de documento</option>
-                                <option value="0">CC</option>
-                                <option value="1">CE</option>
-                                <option value="2">NIP</option>
-                                <option value="3">NIT</option>
-                                <option value="4">TI</option>
-                    </select>
-                </div>
-
-                <div>
-                    <input type="date" placeholder="Fecha de registro" required>
-                    <input type="number" placeholder="Edad" required>
-                </div>
-            
+            <div>
+                <input type="date" placeholder="Fecha de registro" required>
+                <input type="number" placeholder="Edad" required>
+            </div>
         </div>
 
         <div class="subdatos">
@@ -77,43 +73,41 @@
         </div>
 
         <div class="datospaciente3">
-
             <div>
-                    <select class="form-control" id="departamento" name="departamento" required>
-                        <option value="">Departamento de Recidencia</option>
-                        <option value="Amazonas">Amazonas</option>
-                        <option value="Antioquia">Antioquia</option>
-                        <option value="Arauca">Arauca</option>
-                        <option value="Atlántico">Atlántico</option>
-                        <option value="Bolívar">Bolívar</option>
-                        <option value="Boyacá">Boyacá</option>
-                        <option value="Caldas">Caldas</option>
-                        <option value="Caquetá">Caquetá</option>
-                        <option value="Casanare">Casanare</option>
-                        <option value="Cauca">Cauca</option>
-                        <option value="Cesar">Cesar</option>
-                        <option value="Chocó">Chocó</option>
-                        <option value="Córdoba">Córdoba</option>
-                        <option value="Cundinamarca">Cundinamarca</option>
-                        <option value="Guainía">Guainía</option>
-                        <option value="Guaviare">Guaviare</option>
-                        <option value="Huila">Huila</option>
-                        <option value="La Guajira">La Guajira</option>
-                        <option value="Magdalena">Magdalena</option>
-                        <option value="Meta">Meta</option>
-                        <option value="Nariño">Nariño</option>
-                        <option value="Norte de Santander">Norte de Santander</option>
-                        <option value="Putumayo">Putumayo</option>
-                        <option value="Quindío">Quindío</option>
-                        <option value="Risaralda">Risaralda</option>
-                        <option value="San Andrés y Providencia">San Andrés y Providencia</option>
-                        <option value="Santander">Santander</option>
-                        <option value="Sucre">Sucre</option>
-                        <option value="Tolima">Tolima</option>
-                        <option value="Valle del Cauca">Valle del Cauca</option>
-                        <option value="Vaupés">Vaupés</option>
-                        <option value="Vichada">Vichada</option>
-                    </select>
+                <select class="form-control" id="departamento" name="departamento" required>
+                    <option value="">Departamento de Recidencia</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Antioquia">Antioquia</option>
+                    <option value="Arauca">Arauca</option>
+                    <option value="Atlántico">Atlántico</option>
+                    <option value="Bolívar">Bolívar</option>
+                    <option value="Boyacá">Boyacá</option>
+                    <option value="Caldas">Caldas</option>
+                    <option value="Caquetá">Caquetá</option>
+                    <option value="Casanare">Casanare</option>
+                    <option value="Cauca">Cauca</option>
+                    <option value="Cesar">Cesar</option>
+                    <option value="Chocó">Chocó</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Cundinamarca">Cundinamarca</option>
+                    <option value="Guainía">Guainía</option>
+                    <option value="Guaviare">Guaviare</option>
+                    <option value="Huila">Huila</option>
+                    <option value="La Guajira">La Guajira</option>
+                    <option value="Magdalena">Magdalena</option>
+                    <option value="Meta">Meta</option>
+                    <option value="Nariño">Nariño</option>
+                    <option value="Norte de Santander">Norte de Santander</option>
+                    <option value="Putumayo">Putumayo</option>
+                    <option value="Quindío">Quindío</option>
+                    <option value="Risaralda">Risaralda</option>
+                    <option value="San Andrés y Providencia">San Andrés y Providencia</option>                        <option value="Santander">Santander</option>
+                    <option value="Sucre">Sucre</option>
+                    <option value="Tolima">Tolima</option>
+                    <option value="Valle del Cauca">Valle del Cauca</option>
+                    <option value="Vaupés">Vaupés</option>
+                    <option value="Vichada">Vichada</option>
+                </select>
             </div>
 
             <div>
@@ -138,7 +132,6 @@
             </div>
         </div>
 
-
         <div class="datospaciente1">
             <div>
                 <input type="text" placeholder="Direccion" required>
@@ -147,8 +140,8 @@
         </div>
 
         <div>
-                <input type="text" placeholder="Telefono fijo" required>
-                <input type="text" placeholder="Celular" required>
+            <input type="text" placeholder="Telefono fijo" required>
+            <input type="text" placeholder="Celular" required>
         </div>
 
         <div class="subdatos">
@@ -205,10 +198,7 @@
                 <input name="pruebaCovid" id="pruebaCovid" type="radio" required="required">SI
                 <input name="pruebaCovid" id="pruebaCovid" type="radio" required="required" checked>NO
             </div>
-
-
         </div>
-
     </section>
     <center><input class="botonguardar" type="submit"></center>
 </form>
